@@ -250,7 +250,7 @@ There's an example of using `repr` to visualize an AST earlier in this document.
 The `repr` function generates a S-expression representation of the AST in a form that is similar to how the AST would have been built using `ast`.
 
 The `reprBuffer` function generates rows and columns of bytes values representing
-an `ArrayBuffer` with optional terminal-color higlighting of a range of bytes.
+an `ArrayBuffer` with optional terminal-color highlighting of a range of bytes.
 Useful for visualizing what an `Emitter` produces, or for pointing out bytes in a module
 that causes an error with the spec interpreter.
 
